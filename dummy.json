@@ -1,0 +1,37 @@
+[
+    {
+        "id": "1",
+        "name": "Michael Angelo",
+        "contactNumber": "09999999991"
+    },
+    {
+        "id": "2",
+        "name": "Mark Zuckerburg",
+        "contactNumber": "09999999992"
+    },
+    {
+        "id": "3",
+        "name": "Bill Gates",
+        "contactNumber": "09999999993"
+    },
+    {
+        "id": "4",
+        "name": "Steve Jobs",
+        "contactNumber": "09999999994"
+    },
+    {
+        "id": "5",
+        "name": "Lebron James",
+        "contactNumber": "09999999995"
+    },
+    {
+        "id": "6",
+        "name": "Michael Jordan",
+        "contactNumber": "09999999996"
+    },
+    {
+        "id": "7",
+        "name": "Lily Collins",
+        "contactNumber": "09999999997"
+    }
+]
