@@ -4,8 +4,9 @@ import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { AppColors } from '../config/colors';
 
 //Screens
-import Contacts from '../containers/Contacts';
-import Settings from '../containers/Settings';
+import { ContactsStack } from './ContactsStack';
+import { SettingsStack } from './SettingsStack';
+
 
 const Tab = createBottomTabNavigator();
 
@@ -40,8 +41,8 @@ function AppNavigator() {
             style:{height: 60, paddingBottom: 4}
         }}
     >
-      <Tab.Screen name="Contacts" component={Contacts} />
-      <Tab.Screen name="Settings" component={Settings} />
+      <Tab.Screen name="Contacts" component={ContactsStack} />
+      <Tab.Screen name="Settings" component={SettingsStack} />
     </Tab.Navigator>
   );
 }

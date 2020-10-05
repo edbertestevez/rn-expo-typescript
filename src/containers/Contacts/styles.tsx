@@ -22,8 +22,10 @@ export default StyleSheet.create({
     },
     itemContainer:{
         flexDirection: 'row',
-        padding: 12,
-        alignItems: 'center'
+        paddingTop: 20,
+        paddingHorizontal: 12,
+        alignItems: 'center',
+        backgroundColor: '#fff'
     },
     avatar:{
         width: 50,

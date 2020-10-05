@@ -8,9 +8,9 @@ import dummyList from '../../../dummy.json';
 
 const Contacts: React.FC = () =>{
     const [search, setSearch] = useState<string>("");
-    const [contactList, setContactList] = useState<ContactDetails[] | null>(null);
+    const [contactList, setContactList] = useState<IContactDetails[] | null>(null);
     
-    const renderItem = ({ item }: {item: ContactDetails}) => <ContactItem name={item.name} />;
+    const renderItem = ({ item }: {item: IContactDetails}) => <ContactItem details={item} />;
     
     const filterSearch = (text: string) =>{
         let filtered = dummyList?.filter(c => (c.name.toLowerCase()).match(text.toLowerCase()));

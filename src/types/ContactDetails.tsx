@@ -1,4 +1,4 @@
-interface ContactDetails {
+interface IContactDetails {
     id: string,
     name: string,
     contactNumber: string,
